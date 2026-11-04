@@ -1,0 +1,30 @@
+
+# React
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Laravel
+backend/vendor/
+backend/node_modules/
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*.php
+
+# Database / local files
+*.sql
+*.sqlite
+*.sqlite3
+
+# System / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
